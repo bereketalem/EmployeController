@@ -204,9 +204,20 @@
     <Compile Include="Migrations\201810041945259_initial.Designer.cs">
       <DependentUpon>201810041945259_initial.cs</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201810062149418_CreateEmployeTable.cs" />
+    <Compile Include="Migrations\201810062149418_CreateEmployeTable.Designer.cs">
+      <DependentUpon>201810062149418_CreateEmployeTable.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201810062202014_conventionbetweenemployeandgenre.cs" />
+    <Compile Include="Migrations\201810062202014_conventionbetweenemployeandgenre.Designer.cs">
+      <DependentUpon>201810062202014_conventionbetweenemployeandgenre.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AccountViewModels.cs" />
-    <Compile Include="Models\IdentityModels.cs" />
+    <Compile Include="Models\ApplicationDbContext.cs" />
+    <Compile Include="Models\Employee.cs" />
+    <Compile Include="Models\Genre.cs" />
+    <Compile Include="Models\ApplicationUser.cs" />
     <Compile Include="Models\ManageViewModels.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Startup.cs" />
@@ -290,6 +301,12 @@
   <ItemGroup>
     <EmbeddedResource Include="Migrations\201810041945259_initial.resx">
       <DependentUpon>201810041945259_initial.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810062149418_CreateEmployeTable.resx">
+      <DependentUpon>201810062149418_CreateEmployeTable.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201810062202014_conventionbetweenemployeandgenre.resx">
+      <DependentUpon>201810062202014_conventionbetweenemployeandgenre.cs</DependentUpon>
     </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
